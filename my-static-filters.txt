@@ -1,5 +1,5 @@
 ! Title: my-static-filters
-! Version: 20231009
+! Version: 20231010
 
 ! Youtubeの埋め込み動画をクリックして読み込み
 ||youtube.com^$3p,frame,redirect=click2load.html
@@ -644,6 +644,15 @@ oshiete.goo.ne.jp##^.qa-rside
 ||oshiete.xgoo.jp/images/common/*_bk.png$image,3p
 ||oshiete.xgoo.jp/images/v2/*/common^$image,3p
 ||u.xgoo.jp/img/docomo.png$image,3p
+
+! https://otenki.weather-service.co.jp
+otenki.weather-service.co.jp##^#sideBlock
+||otenki.weather-service.co.jp/image/*_banner$image,1p
+||otenki.weather-service.co.jp/image/*_bg.png$image,1p
+||otenki.weather-service.co.jp/image/*_logo$image,1p
+||otenki.weather-service.co.jp/image/cat_board$image,1p
+||otenki.weather-service.co.jp/image/icon_info_l.png$image,1p
+||otenki.weather-service.co.jp/image/mn_arr$image,1p
 
 ! https://photos.google.com
 ||www.gstatic.com/images/branding/googlelogo/svg^$image,3p
@@ -1342,17 +1351,6 @@ www.uniqlo.com##^.fr-ec-carousel
 www.uniqlo.com##^.fr-ec-cms-media-banner
 ||asset.uniqlo.com/g/icons^$image,1p,domain=www.uniqlo.com
 ||im.uniqlo.com/global-cms/spa^$image,1p,domain=www.uniqlo.com
-
-! http://www.weather-service.co.jp
-www.weather-service.co.jp##^#sideBlock
-||www.weather-service.co.jp/weather/forecast/image/forecast_ti.png$image,1p
-||www.weather-service.co.jp/weather/image/*_bg.png$image,1p
-||www.weather-service.co.jp/weather/image/*_logo.png$image,1p
-||www.weather-service.co.jp/weather/image/cat_board$image,1p
-||www.weather-service.co.jp/weather/image/icon_info_l.png$image,1p
-||www.weather-service.co.jp/weather/image/mn_arr$image,1p
-||www.weather-service.co.jp/weather/image/topics_banner20$image,1p
-||www.weather-service.co.jp/weather/image/twitter_banner20$image,1p
 
 ! https://www.weblio.jp
 www.weblio.jp##.ad-blank
