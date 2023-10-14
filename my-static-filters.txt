@@ -1,5 +1,5 @@
 ! Title: my-static-filters
-! Version: 20231010
+! Version: 20231015
 
 ! Youtubeの埋め込み動画をクリックして読み込み
 ||youtube.com^$3p,frame,redirect=click2load.html
@@ -130,6 +130,9 @@ allabout.co.jp##^section.aa_main-section
 ||imgbp.hotp.jp/CSP/img/top/smb/img_catalog_$image,3p
 ||imgbp.hotp.jp/CSP/img/top/smb/sp_mainImg_career_$image,3p
 ||imgbp.hotp.jp/CSP/img/top/smb/sp_sama_mainImg_hair_$image,3p
+
+! https://blog.livedoor.com
+blog.livedoor.com###gdpr-banner
 
 ! https://business.nikkei.com
 business.nikkei.com##^.asideRight
@@ -848,10 +851,17 @@ tenki.jp##.tenki-ad-lite-north
 ||teratail.com/img/questions^$image,1p
 
 ! https://toto.rakuten.co.jp
+toto.rakuten.co.jp##^.cvArea
+toto.rakuten.co.jp##^.slick-dotted.slick-slider.slick-initialized.top-slider
 toto.rakuten.co.jp##^.vote.item-list-contents
 ||toto.r10s.jp/nocache/img/*/cont/big_buy/menu_icon_big1000.png$image,3p
 ||toto.r10s.jp/nocache/img/*/cont/big_buy/menu_icon_minibig.png$image,3p
 ||toto.r10s.jp/nocache/img/*/cont/big_buy/set$image,3p
+||toto.rakuten.co.jp/*_banner_$image,1p
+||toto.rakuten.co.jp//img/campaign/$image,1p
+||toto.rakuten.co.jp/big/carryover/images/icon_big1000.png$image,1p
+||toto.rakuten.co.jp/big/carryover/images/icon_minibig.png$image,1p
+||toto.rakuten.co.jp/big/carryover/images/jackpot_info$image,1p
 ||toto.rakuten.co.jp/campaign^$image,1p
 ||toto.rakuten.co.jp/img/*/common/unit/noticeToBuy/18kin.gif$image,1p
 ||toto.rakuten.co.jp/img/*/common/unit/noticeToBuy/sprite_btn_$image,1p
@@ -867,7 +877,9 @@ toto.rakuten.co.jp##^.vote.item-list-contents
 ||toto.rakuten.co.jp/img/*/top/btn_purchase_toto_regular_$image,1p
 ||toto.rakuten.co.jp/img/*/top/google-play_download$image,1p
 ||toto.rakuten.co.jp/img/app/app_icon_$image,1p
+||toto.rakuten.co.jp/img/banner/campaign/$image,1p
 ||toto.rakuten.co.jp/img/bg_$image,1p
+||toto.rakuten.co.jp/img/campaign/$image,1p
 ||toto.rakuten.co.jp/img/header/*-logo_46x33$image,1p
 ||toto.rakuten.co.jp/img/header/campaign_24x24.svg$image,1p
 ||toto.rakuten.co.jp/img/header/customer_24x24.svg$image,1p
@@ -876,6 +888,9 @@ toto.rakuten.co.jp##^.vote.item-list-contents
 ||toto.rakuten.co.jp/img/header/logo_rakuten_toto_$image,1p
 ||toto.rakuten.co.jp/img/header/my-toto_24x24.svg$image,1p
 ||toto.rakuten.co.jp/img/header/tips_24x24.svg$image,1p
+||toto.rakuten.co.jp/shared/images/str-aside/btn-big-free-$image,1p
+||toto.rakuten.co.jp/shared/images/str-aside/btn-omakasetoto$image,1p
+||toto.rakuten.co.jp/shared/images/str-aside/btn-toto-$image,1p
 
 ! https://trackings.post.japanpost.jp
 ||trackings.post.japanpost.jp/services/common/displayImage/searchDisplayImage?*&imageFileId=img_service$image,1p
