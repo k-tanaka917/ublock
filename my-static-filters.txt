@@ -1,5 +1,5 @@
 ! Title: my-static-filters
-! Version: 20231015
+! Version: 20231031
 
 ! Youtubeの埋め込み動画をクリックして読み込み
 ||youtube.com^$3p,frame,redirect=click2load.html
@@ -16,12 +16,12 @@
 store.toto-dream.com##^.SPMB002__choice__tab__conts__winner
 store.toto-dream.com##^.login-Appeal
 store.toto-dream.com##^.login-panelColumn
+||toto-dream.com/*_winner$image,1p
 ||toto-dream.com/*img_big04.jpg$image,1p
 ||toto-dream.com/*img_big05.jpg$image,1p
 ||toto-dream.com/*img_topBnr$image,1p
 ||toto-dream.com/*service_logo^$image,1p
 ||toto-dream.com/campaign/img^$image,1p
-||toto-dream.com/dcs/subos/screen/pm01/spmb000/static_common_system/img/footer_winner^$image,1p
 ||toto-dream.com/dcs/subos/screen/sm01/sp/img/common/footer^$image,1p
 ||toto-dream.com/img_system/kaiin_kujikonyu/bnr_$image,1p
 ||toto-dream.com/img_system/kaiin_kujikonyu/img_pack$image,1p
@@ -37,6 +37,13 @@ store.toto-dream.com##^.login-panelColumn
 ||toto-dream.com/static_common_system/img/common/basic_icon^$image,1p
 ||toto-dream.com/static_common_system/img/common/top/kuji$image,1p
 ||toto-dream.com/static_common_system/img/spin049^$image,1p
+||toto-dream.com/system/files/common/img/bnr_$image,1p
+||toto-dream.com/system/files/common/img/ico_FB$image,1p
+||toto-dream.com/system/files/common/img/ico_twitter$image,1p
+||toto-dream.com/system/files/common/img/ico_under18.png$image,1p
+||toto-dream.com/system/files/common/img/logo_toto$image,1p
+||toto-dream.com/system/files/img/logo_officialLink$image,1p
+||toto-dream.com/system/files/top/img/img_$image,1p
 
 ! https://*.watch.impress.co.jp
 @@||asset.watch.impress.co.jp/img/*/docs^$document,3p
@@ -59,6 +66,15 @@ watch.impress.co.jp#$#img.resource { display: block !important; }
 ||wikipedia.org/static/images/icons/wikipedia.png$image,1p
 ||wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-$image,1p
 ||wikipedia.org/w/extensions/RelatedArticles/resources/ext.relatedArticles.readMore/article.svg$image,1p
+
+! http://*chatpad.jp
+||chatpad.jp/images/*_bg.png$image,1p
+||chatpad.jp/images/*logo$image,1p
+||chatpad.jp/images/background.png$image,1p
+||chatpad.jp/images/contents/home/balloons.png$image,1p
+||chatpad.jp/images/contents/home/bbs-box_lead.png$image,1p
+||chatpad.jp/images/contents/home/desc$image,1p
+||chatpad.jp/images/contents/room/footer.png$image,1p
 
 ! https://allabout.co.jp
 allabout.co.jp##^#smt_rec_dcmatch_1
@@ -840,6 +856,7 @@ tenki.jp##.tenki-ad-lite-north
 ||static.tenki.jp/images/icon/menu/icon$image,1p
 ||static.tenki.jp/images/icon/radar.jpg$image,1p
 ||static.tenki.jp/images/icon/search-gps.png$image,1p
+||static.tenki.jp/images/icon/sns^$image,1p
 ||static.tenki.jp/static-images/chart/recent/xsmall.jpg$image,1p
 ||static.tenki.jp/static-images/radar/recent^$image,1p
 ||storage.tenki.jp/storage/static-images/forecaster_diary^$image,1p
